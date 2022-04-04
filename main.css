@@ -1,0 +1,51 @@
+*{margin: 0; padding: 0;}
+small{color: red;}
+
+.header{display: flex; align-items: center; padding-top: 20px; background-color: pink;}
+
+.header a{text-decoration: none; margin-left: 20px; font-size: 20px; font-family: 'Times New Roman', Times, serif; color: whitesmoke;}
+
+.header .logo h1{color: whitesmoke;}
+h1{text-align: center; color:maroon; padding-top: 10px;}
+.welcome {margin-left: 250px; color:rgb(4, 76, 4); padding-top: 10px;}
+
+form{width: 80%; margin: auto;}
+.rowN{display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));margin-bottom: 20px ;}
+label{display: block;}
+.row1{display: flex;}
+
+.row{width: 100%; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr) );gap: 20px 30px;margin-bottom: 20px;}
+form label{font-size: 20px; color: brown;}
+form input{height: 30px; width: 50%; border: 1px solid lightgrey; border-radius: 10px;}
+
+.rowN select {height: 30px; width: 50%;  border: 1px solid lightgrey; border-radius: 10px;}
+.row select {height: 30px; width: 50%; border: 1px solid lightgrey; border-radius: 10px;}
+button{border: none; margin-left: 35%; margin-top: 25px; background-color: white; color:brown; font-size: large;}
+button:hover{ background-color: rgb(4, 76, 4); cursor:pointer;}
+/* .rowN, .country select{width: 100%;} */
+.summary{font-size: 20px; color: maroon;}
+
+
+
+
+/* CSS FOR MOBILE VERSION */
+@media (max-width:1050) {
+    
+}
+
+@media (max-width:800px) {
+.welcome{ margin-left: 100px;}
+.row select{width: 100%;}
+form input{width: 100%;}
+.rowN select{width: 100%;}
+}
+
+@media (max-width:485) {
+.header {display:block;}
+.header .logo{display: none;}
+
+}
+
+
+
+

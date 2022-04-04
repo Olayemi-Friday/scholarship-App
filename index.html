@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+        
+    
+    <div class="header">
+        <div class="logo">
+           <h1>OSOPADEC</h1>
+        </div>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Support</a>
+    </div>
+
+    <div class="welcome">
+        <h2><i>WELCOME TO ONDO STATE SCHOLARSHIP BOARD</i></h2><br>
+        <h3>Fill in the form, by providing correct and valid information</h3><br>
+        <p><b><i>Applicate Must Above or Equvilent to 18 years </i></b></p><br>
+    </div>
+
+    <form>
+        <div class="rowN">
+            <div>
+                <label for="First Name">First Name</label>
+                <input type="text" id="userFirstName" name="userFirstName">
+                <small id="userFirstNameError"></small>
+            </div>
+
+            <div>
+                <label for="Last Name">Last Name</label>
+                <input type="text" id="userLastName" name="userLastName">
+                <small id="userLastNameError"></small>
+            </div>
+        </div>
+
+        <div class="rowN">
+            <div>
+                <label for="gender">Gender</label>
+            <select name="userGender" id="userGender">
+                <option value="">Select your Gender</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+            </select>
+            <small id="userGenderError"></small>
+            </div>
+            
+            <div>
+                <label for="age">Age</label>
+                <select name="userAge" id="userAge">
+                    <option value="">Select Your Age Range</option>
+                    <option value="18-24">18 - 24 Years</option>
+                    <option value="25-30">25 - 30 Years</option>
+                    <option value="31-35">31 - 35 Years</option>
+                    <option value="36-40">36 - 40 Years</option>
+                    <option value="41">41 Years and Above</option>
+                </select>  
+                <small id="userAgeError"></small>
+            </div>
+        </div>
+
+        <div class="rowN">
+            <div>
+                <label for="Phone Number">Phone Number</label>
+                <input type="text" id="userPhoneNumber" name="userPhoneNumber">
+                <small id="userPhoneNumberError"></small>
+            </div>
+
+            <div>
+                <label for="School Name">School Name</label>
+                <input type="text" id="userSchool" name="userSchool">
+                <small id="userSchoolError"></small>
+            </div>
+        </div>
+
+        <div class="rowN">
+            <div class="country">
+             <label for="country">Country</label>
+             <select name="userCountry" id="userCountry">
+                 <option value="">Choose Country</option>
+                 <option value="africa">Nigeria</option>
+                 <option value="africa">South Africa</option>
+                 <option value="africa">Ghana</option>
+                 <option value="asia">China</option>
+                 <option value="asia">Indonesia</option>
+                 <option value="asia">Japan</option>
+                 <option value="south America">Brazil</option>
+                 <option value="southAmerica">Peru</option>
+                 <option value="southAmerica">Chile</option>
+                 <option value="northAmerica">Canada</option>
+                 <option value="northAmerica">Mexico</option>
+                 <option value="northAmerica">Cuba</option>
+                 <option value="others">Others</option>
+             </select>
+             <small name="userCountryError" id="userCountryError"></small>
+            </div>
+     </div>
+
+        <label for="subjects">Select Your Subjects</label>
+
+        <div class="rowN">
+            <div>
+                <input type="text" id="Mathematics" value="Mathematics" disabled="true"><br><br>
+                <small id="mathError"></small>
+                <input type="number" id="mathScore" placeholder="Enter Your Score">
+                <small id="mathScoreError"></small>
+            </div>
+            
+            <div>
+                <input type="text" id="English" value="English" disabled="true"><br><br>
+                <small id="engError"></small>
+                <input type="number" id="engScore" placeholder="Enter Your Score">
+                <small id="engScoreError"></small>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div>
+                <select name="subject3" id="subject3"> 
+                    <option value="">Select Subject</option>   
+                </select>
+                <small id="subject3Error"></small>
+            </div>
+            
+            <div>
+                <input type="number" id="subject3Score" placeholder="Enter Your Score">
+                <small id="subject3ScoreError"></small>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <select name="subject4" id="subject4">  
+                    <option value="">Select Subject</option> 
+                </select>
+                <small id="subject4Error"></small>
+            </div>
+            
+            <div>
+                <div>
+                    <input type="number" id="subject4Score" placeholder="Enter Your Score">
+                    <small id="subject4ScoreError"></small>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <select name="subject5" id="subject5">  
+                    <option value="">Select Subject</option> 
+                </select>
+                <small id="subject5Error"></small>
+            </div>
+            
+            <div>
+                <div>
+                    <input type="number" id="subject5Score" placeholder="Enter Your Score">
+                    <small id="subject5ScoreError"></small>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <select name="subject6" id="subject6">  
+                    <option value="">Select Subject</option> 
+                </select>
+                <small id="subject6Error"></small>
+            </div>
+            
+            <div>
+                <div>
+                    <input type="number" id="subject6Score" placeholder="Enter Your Score">
+                    <small id="subject6ScoreError"></small>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <select name="subject7" id="subject7">  
+                    <option value="">Select Subject</option> 
+                </select>
+                <small id="subject7Error"></small>
+            </div>
+
+            <div>
+                <input type="number" id="subject7Score" placeholder="Enter Your Score">
+                <small id="subject7ScoreError"></small>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <select name="subject8" id="subject8">  
+                    <option value="">Select Subject</option> 
+                </select>
+                <small id="subject8Error"></small>
+            </div>
+            
+            <div>
+                <div>
+                    <input type="number" id="subject8Score" placeholder="Enter Your Score">
+                    <small id="subject8ScoreError"></small>
+                </div>
+            </div>
+        </div>
+
+              
+        <button type="button" id="regBtn"><b>Apply</b></button><br><br>
+        
+        <div class="summary" id="summary"></div>
+
+        <div>
+            <canvas id="myChart"></canvas>
+        </div>
+
+    </form>
+    
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
